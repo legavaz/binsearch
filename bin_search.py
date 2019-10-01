@@ -4,7 +4,7 @@ import os
 os.system('CLS')
 
 start_vol   =   1
-end_vol     =   100
+end_vol     =   101
 print('Загадайте число от {0} до {1}'.format(start_vol,end_vol))
 input('Для продолжения нажмите Enter:')
 

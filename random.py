@@ -11,6 +11,7 @@ def q_sort(array):
         return array
     else:
         pivot   =   array[0]
+        #pivot   =   array[random.randint(0,len(array)-1)]
         less    =   [i for i in array[1:] if i<=pivot]
         greater =   [i for i in array[1:] if i>pivot]
         return q_sort(less) + [pivot] + q_sort(greater)
