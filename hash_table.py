@@ -12,10 +12,4 @@ for item in book_keep:
     print(item,book_keep[item])    
 
 
-# привет как дела
-# привет как дела
-# привет как дела
-# привет как дела
-# book_keep[name] =   20
-# book_keep[name] =   20
-# book_keep[name] =   20
+
