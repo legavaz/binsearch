@@ -24,8 +24,8 @@ def serch(name):
     search_queue+=graph[name]
     serched =   []
     while search_queue:
-        # person = search_queue.popleft()
-        person = search_queue.pop() #ошибка
+        person = search_queue.popleft()     #поиск сначала лево
+        # person = search_queue.pop()       #поиск сначала справа
         if not person in serched: 
             if person_is_seller(person):
                 print(person,'is seller Mango')
