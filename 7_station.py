@@ -1,3 +1,5 @@
+# пересечения множеств
+
 import os
 os.system('CLS')
 
