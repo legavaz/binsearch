@@ -3,7 +3,6 @@
 import os
 os.system('CLS')
 
-
 states_needed = set(["mt", "wa", "or", "id", "nv", "ut", "ca", "az"])
 
 stations = {}
